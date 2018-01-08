@@ -17,7 +17,7 @@ const chokidarOptions = { ignored, };
 async function watch(dir, opts) {
   opts = Object.assign({}, chokidarOptions, opts);
   const watcher = proximify(chokidar.watch(dir, opts));
-  console.log('Reading current dir...');
+  console.log(`Reading dir: '${dir}'`);
   const initial = []
   const initialAdd = path => {
     initial.push(path);
