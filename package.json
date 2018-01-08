@@ -26,5 +26,14 @@
     "socket.io-stream": "^0.9.1",
     "stream-equal": "^1.0.0",
     "untildify": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+    "rules": {}
   }
 }
